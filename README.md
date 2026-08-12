@@ -1,8 +1,6 @@
 # Indeed-salary-prediction-nlp
 Salary prediction from Indeed job postings using NLP and Machine Learning (group project, ISDS 2021)
 
-# Salary Prediction from Indeed Job Postings using NLP and Machine Learning
-
 ## Overview
 Group project for Introduction to Social Data Science (University of Copenhagen, 
 Summer 2021). The project scrapes job postings from Indeed.com and predicts 
