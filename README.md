@@ -26,12 +26,30 @@ titles and descriptions.
 ## Results
 
 | Model         | Data      | Train Accuracy | Test Accuracy |
-|---------------|-----------|-----------------|-----------------|
-| Random Forest | Job Title | 77.1%           | 70%             |
-| Random Forest | Summary   | 94.1%           | 65%             |
+| ------------- | --------- | -------------- | ------------- |
+| Random Forest | Job Title | 77.1%          | 70%           |
+| Random Forest | Summary   | 94.1%          | 65%           |
 
 The gap between train and test accuracy indicates some overfitting, 
 particularly on the summary data — discussed further in the full report.
+
+### Salary Distribution
+![Salary Distribution](salary_distribution.png)
+
+The distribution of salaries in the scraped job postings, with mean and 
+median indicated.
+
+### Keyword Frequency in Job Descriptions
+![Keyword Frequency](keyword_frequency.png)
+
+Most frequent keywords found in job descriptions after text cleaning.
+
+### Overfitting Check: Train vs Test Accuracy
+![RF Accuracy](rf_accuracy_overfitting.png)
+
+Train and test accuracy across different numbers of estimators. The 
+persistent gap — especially on the summary data — indicates the Random 
+Forest model is overfitting.
 
 ## Note
 This was a group project completed as part of a university course.
